@@ -1,0 +1,65 @@
+#root {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.dashboard {
+  display: grid;
+  gap: 1rem;
+  text-align: left;
+}
+
+h1 {
+  margin: 0;
+}
+
+.subtitle {
+  margin-top: -0.4rem;
+  color: #cbd5e1;
+}
+
+.panel {
+  background: #111827;
+  border: 1px solid #334155;
+  border-radius: 14px;
+  padding: 1rem;
+}
+
+.clock {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.4rem 0;
+}
+
+.date {
+  color: #94a3b8;
+}
+
+.location-label,
+.coords {
+  margin: 0.3rem 0;
+}
+
+.map-frame {
+  width: 100%;
+  height: 350px;
+  border: 1px solid #475569;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+}
+
+.weather-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.8rem;
+}
+
+.label {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+.error {
+  color: #fda4af;
+}
